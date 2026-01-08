@@ -119,14 +119,7 @@ const Header: React.FC<HeaderProps> = ({
               </a>
             </div>
 
-            <button
-              onClick={onOwnerClick}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-all ${isLoggedIn ? 'bg-neon-green/20 text-neon-green border border-neon-green' : 'text-gray-400 hover:text-white'}`}
-              title="Owner Login"
-            >
-              <UserCircle className="w-6 h-6" />
-              {isLoggedIn && <span className="text-[10px] font-orbitron font-bold uppercase">ADMIN</span>}
-            </button>
+           
           </div>
 
           <div className="lg:hidden flex items-center gap-4">
